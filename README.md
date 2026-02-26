@@ -53,4 +53,4 @@ State, Street, Country;
 
     The best way would be to use a Star Schema where the Fact table would hold only Id for info that would be placed in a couple of Dimension table linking the by the XXX_Id (ex.: One table for the Store, and other for Product, maybe even one for the Category/Subcategory).
     We could also look to remove data that is constant, like Country if there is no international stores.  
-    And at last look to storage it in columnar storage and enable compression.
+    And at last, look to storage it in columnar storage and enable compression.
